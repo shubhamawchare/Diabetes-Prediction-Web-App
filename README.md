@@ -22,6 +22,14 @@
 
 ## 📁Project overview
 
+**Live Demo**
+
+The application is deployed and accessible online:
+
+https://diabetes-prediction-web-app-fhqb7yelstycjgcygfcgc7.streamlit.app/
+
+You can open the app directly in your browser, explore the dataset, visualize patterns, and test the ML models without needing to run anything locally.
+
 This repository contains a Streamlit application (`diabetes.py`) that loads a diabetes dataset (`diabetes.csv`), performs simple cleaning, offers interactive visualizations, and allows users to train and evaluate two machine learning models (Logistic Regression and Decision Tree) and try simple predictions.
 
 The goal is educational: to demonstrate an end-to-end workflow for data exploration, model training, and quick prediction inside an interactive web UI.
