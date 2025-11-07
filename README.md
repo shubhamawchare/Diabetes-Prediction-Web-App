@@ -4,7 +4,7 @@
 
 ---
 
-## Table of contents
+## 📋Table of contents
 
 * [Project overview](#project-overview)
 * [Features](#features)
@@ -20,7 +20,7 @@
 
 ---
 
-## Project overview
+## 📁Project overview
 
 This repository contains a Streamlit application (`diabetes.py`) that loads a diabetes dataset (`diabetes.csv`), performs simple cleaning, offers interactive visualizations, and allows users to train and evaluate two machine learning models (Logistic Regression and Decision Tree) and try simple predictions.
 
@@ -30,7 +30,7 @@ The goal is educational: to demonstrate an end-to-end workflow for data explorat
 
 ---
 
-## Features
+## 💻Features
 
 * Interactive Streamlit UI with a sidebar-driven navigation
 * Home page with dataset preview and basic statistics
@@ -43,7 +43,7 @@ The goal is educational: to demonstrate an end-to-end workflow for data explorat
 
 ---
 
-## Dataset
+## 📊Dataset
 
 The app uses the Pima Indians Diabetes dataset (commonly used in ML examples). The dataset file is included as `diabetes.csv` in the repository root. It contains 768 rows and the following features:
 
@@ -61,7 +61,7 @@ The app uses the Pima Indians Diabetes dataset (commonly used in ML examples). T
 
 ---
 
-## How the app preprocesses data
+## 🧠How the app preprocesses data
 
 The cleaning steps performed in `app.py` are reproduced here for clarity (see the code comments in `diabetes.py`):
 
@@ -74,7 +74,7 @@ The cleaning steps performed in `app.py` are reproduced here for clarity (see th
 
 ---
 
-## Quick start - run locally
+## 🛠️Quick start - run locally
 
 1. Clone the repository:
 
@@ -117,7 +117,7 @@ streamlit run app.py
 
 ---
 
-## App pages & usage
+## 🚀App pages & usage
 
 **Home**
 
@@ -160,7 +160,7 @@ streamlit run app.py
 
 ---
 
-## Suggestions & next steps (ideas for improvement)
+## 🔮Suggestions & next steps (ideas for improvement)
 
 * Implement imputation strategies (median/mean/KNN) instead of dropping rows.
 * Add cross-validation and hyperparameter search (`GridSearchCV` / `RandomizedSearchCV`).
@@ -171,7 +171,7 @@ streamlit run app.py
 
 ---
 
-## Repository structure 
+## 📦Repository structure 
 
 ```
 / (repo root)
@@ -183,7 +183,7 @@ streamlit run app.py
 
 ---
 
-## License
+## 📝License
 
 This project is provided under the **MIT License** by default.
 
