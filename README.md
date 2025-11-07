@@ -1,4 +1,4 @@
-# Diabetes App
+# 🩺Diabetes App
 
 **A simple Streamlit app for exploring the Pima Indians Diabetes dataset, visualizing features, and training two basic classification models (Logistic Regression and Decision Tree).**
 
